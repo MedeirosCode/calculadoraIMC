@@ -4,7 +4,6 @@
     align-items: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid 2px;
     border-radius: 30px 2px;
     font-size: 30px;
 
@@ -12,7 +11,7 @@
 
 p {
  font-size: 20px;
- margin-top: 1px;
+ margin-top: 1%;
 }
 
 h4 {
