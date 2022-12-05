@@ -9,14 +9,16 @@
     <title>Document</title>
   </head>
   <body>
-    <h3>Calculadora IMC</h3>
+    <header>
+       <h4>Calculadora IMC</h4>
     <p>HTML CSS JAVASCRIPT</p>
+    </header>
     <form method="post" onsubmit=" return calcular()">
-     <h4>Digite seu peso:  </h4>
+     <h3>Digite seu peso:  </h3>
       <input type="text" name="peso" id="peso" placeholder="ex: 67.50" /> <br> <br>
-     <h4> Digite sua altura:</h4>  
+     <h3> Digite sua altura:</h3>  
       <input type="text" name="altura" id="altura" placeholder="ex: 1.50" /><br> <br>
-      <input type="submit" value="Calcular" />
+      <input class="button" type="submit" value="Calcular" />
     </form>
     <div id="resultado"></div>
   </body>
